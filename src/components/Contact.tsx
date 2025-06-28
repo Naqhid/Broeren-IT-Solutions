@@ -3,6 +3,7 @@ import { Phone, Mail, Globe, MessageSquare, MapPin } from 'lucide-react';
 
 const Contact = () => {
   return (
+    // contact form
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
