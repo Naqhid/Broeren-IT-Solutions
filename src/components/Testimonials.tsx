@@ -2,32 +2,33 @@ import React from 'react';
 import { Star, Quote } from 'lucide-react';
 
 const Testimonials = () => {
-  const testimonials = [
-    {
-      name: "Sarah van der Berg",
-      company: "Green Garden Café",
-      location: "Amsterdam",
-      rating: 5,
-      text: "Broeren IT Solutions created an amazing website for our café. The design is beautiful and our online orders have increased by 300%!",
-      avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150"
-    },
-    {
-      name: "Mark Janssen",
-      company: "TechStart B.V.",
-      location: "Rotterdam",
-      rating: 5,
-      text: "Professional, fast, and exactly what we needed. The logo design perfectly captures our brand identity. Highly recommended!",
-      avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150"
-    },
-    {
-      name: "Lisa de Wit",
-      company: "Boutique Luna",
-      location: "Utrecht",
-      rating: 5,
-      text: "The team delivered beyond our expectations. Our e-commerce site is not only beautiful but also drives real results for our business.",
-      avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150"
-    }
-  ];
+ const testimonials = [
+  {
+    name: "Sibakathulla Basheer",
+    company: "All India President of aihro organization",
+    location: "Bangalore",
+    rating: 5,
+    text: "Broeren IT Solutions built a powerful and clean website for our human rights initiative. It’s helped us reach more supporters across India.",
+   
+  },
+  {
+    name: "Redoun Robert",
+    company: "FinSolve Consultancy",
+    location: "Ravenstein",
+    rating: 5,
+    text: "The financial services site delivered was modern, professional, and loaded fast on all devices. Our client inquiries have increased dramatically.",
+    avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150"
+  },
+  {
+    name: "John",
+    company: "Creative Splash",
+    location: "Chennai",
+    rating: 5,
+    text: "From marriage albums to posters, their Adobe Photoshop work is just excellent. Quick delivery, great communication, and stunning visuals!",
+    avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150"
+  }
+];
+
 
   return (
     <section className="py-20 bg-white">
@@ -56,11 +57,7 @@ const Testimonials = () => {
               <p className="text-gray-700 mb-6 leading-relaxed">"{testimonial.text}"</p>
               
               <div className="flex items-center space-x-4">
-                <img 
-                  src={testimonial.avatar} 
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
+              
                 <div>
                   <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
                   <p className="text-sm text-gray-600">{testimonial.company}</p>
