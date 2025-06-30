@@ -19,14 +19,47 @@ const Testimonials = () => {
     text: "The financial services site delivered was modern, professional, and loaded fast on all devices. Our client inquiries have increased dramatically.",
     avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150"
   },
-  {
-    name: "John",
-    company: "Creative Splash",
-    location: "Chennai",
-    rating: 5,
-    text: "From marriage albums to posters, their Adobe Photoshop work is just excellent. Quick delivery, great communication, and stunning visuals!",
-    avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150"
-  }
+ {
+  name: "Lazer Studio",
+  company: "",
+  location: "Chennai",
+  rating: 5,
+  text: "He understands exactly what I say and creates the design accordingly.",
+  avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150"
+},
+{
+  name: "Vasanth Photos",
+  company: "",
+  location: "Chennai",
+  rating: 5,
+  text: "He completes the work either at the time we request it or within the agreed-upon timeframe.",
+  avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150"
+},
+{
+  name: "Jack Photography",
+  company: "",
+  location: "Chennai",
+  rating: 5,
+  text: "His designs have more creativity than I expect.",
+  avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150"
+},
+{
+  name: "Rathi Studio",
+  company: "",
+  location: "Chennai",
+  rating: 5,
+  text: "He charges appropriately for the work, but at a reasonable price — lower than the market rate.",
+  avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150"
+},
+{
+  name: "Mathivathani Studio",
+  company: "",
+  location: "Chennai",
+  rating: 5,
+  text: "He is an honest person who does not deceive after taking money; he truly works with integrity.",
+  avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150"
+}
+
 ];
 
 
