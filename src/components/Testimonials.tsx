@@ -15,7 +15,7 @@ const Testimonials = () => {
       company: "FinSolve Consultancy",
       location: "Ravenstein",
       rating: 5,
-      text: "The financial services site delivered was modern, professional, and loads fast on all devices. Our client inquiries have increased dramatically.",
+      text: "The financial services site delivered was modern, professional, and loads fast on all devices.",
       avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150",
     },
     {
