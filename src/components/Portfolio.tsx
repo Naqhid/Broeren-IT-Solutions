@@ -18,7 +18,8 @@ const Portfolio = () => {
     description: "A versatile collection of Adobe Photoshop works including marriage albums, business posters, pamphlets, logos, invitations, and marketing creatives.",
     image: "https://images.pexels.com/photos/326501/pexels-photo-326501.jpeg",
     icon: Palette,
-    tags: ["Photoshop", "Marriage Album", "Poster Design", "Pamphlets", "Logos", "Social Media Creatives"]
+    tags: ["Photoshop", "Marriage Album", "Poster Design", "Pamphlets", "Logos", "Social Media Creatives"],
+    link: "https://drive.google.com/drive/folders/1djQ4svWh9H-oIiJKyJZZ-QbU2zBQu1pI?usp=drive_link"
   },
   {
     title: "Broeren Administraties",
